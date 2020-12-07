@@ -1,5 +1,4 @@
 % Shönhage-Strassen algorithm
-% TODO to optimize & works only for small integers for the moment
 function product = ssmult(x, y)
     % Choose the nearest highest power of 2 of the size of numbers
     max_size = max(numel(num2str(x)), numel(num2str(y)));
@@ -10,8 +9,11 @@ function product = ssmult(x, y)
     % Calculate the cyclic convolution
     v = cyclicConvolution(X, Y);
     % Recombinate
-    product = 0;
+    product = zeros(1, 2^k);
+    carry = 0;
     for i = 1 : 2^k
-       product = product + round(v(i) * 10^(i - 1));
+        product(i) = mod(v(i) + carry, 10);
+        carry = fix((v(i) + carry) / 10);
     end
+    product = str2double(sprintf('%d', flip(product)));
 end
