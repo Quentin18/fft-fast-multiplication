@@ -1,7 +1,7 @@
 % Shönhage-Strassen algorithm
 function product = ssmult(x, y)
     % Choose the nearest highest power of 2 of the size of numbers
-    max_size = max(numel(num2str(x)), numel(num2str(y)));
+    max_size = max(numel(int2str(x)), numel(int2str(y)));
     k = pow2(ceil(log2(max_size)));
     % Slit numbers into two vectors X and Y
     X = number2vector(x, k);
