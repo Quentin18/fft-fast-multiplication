@@ -6,6 +6,7 @@ function product = ssmult(x, y, b)
 %   p = SSMULT(x, y) returns the product x * y where x and y are two
 %   integers in base 10.
 
+    % Default base: 10
     if nargin == 2
         b = 10;
     end
