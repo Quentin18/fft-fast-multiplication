@@ -6,8 +6,8 @@ C'est un algorithme de multiplication rapide basé sur la FFT.
 Cet algorithme sera comparé à d'autres algorithmes de multiplication.
 
 ## Algorithmes de multiplication
-- [x] Algorithme standard (*Long multiplication*)
-- [ ] Algorithme de Schönage et Strassen
+- [x] Algorithme standard (*Long multiplication*) : `longmult`
+- [x] Algorithme de Schönage et Strassen : `ssmult`
 - [ ] Algorithme de Karatsuba
 - [ ] Algorithme de Fürer
 
