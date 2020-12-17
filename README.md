@@ -28,3 +28,5 @@ Cet algorithme sera comparé à d'autres algorithmes de multiplication.
 - [Karatsuba algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm)
 - [Fürer's algorithm](https://en.wikipedia.org/wiki/F%C3%BCrer%27s_algorithm)
 - [Understanding Fast Fourier Transform from scratch — to solve Polynomial Multiplication](https://medium.com/@aiswaryamathur/understanding-fast-fourier-transform-from-scratch-to-solve-polynomial-multiplication-8018d511162f)
+- [Integer multiplication in time O(n log n) - David Harvey](https://www.youtube.com/watch?v=FKGRc867j10)
+
