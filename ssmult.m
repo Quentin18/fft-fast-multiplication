@@ -16,8 +16,8 @@ function product = ssmult(x, y, b)
     % Slit numbers into two vectors X and Y
     X = number2vector(x, k);
     Y = number2vector(y, k);
-    % Calculate the cyclic convolution
-    v = cyclicConvolution(X, Y);
+    % Calculate the convolution
+    v = fastConvolution(X, Y);
     % Recombinate
     product = zeros(1, 2^k);
     carry = 0;
