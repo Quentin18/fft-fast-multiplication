@@ -17,7 +17,7 @@ function product = karatsuba(x, y, b)
     else
        % Calculate the split size k of the numbers
        max_size = max(numel(int2str(x)), numel(int2str(y)));
-       k = ceil(max_size/2);
+       k = pow2(ceil(log2(max_size / 2)));
        % Split x and y about the middle
        x1 = floor(x / (b^k));
        x0 = mod(x, b^k);
