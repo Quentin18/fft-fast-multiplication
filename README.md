@@ -1,14 +1,14 @@
 # Multiplication rapide & FFT
 
-Ce projet consiste à présenter l'algorithme de Schönhage-Strassen.
+Ce projet consiste à présenter et implémenter l'algorithme de Schönhage-Strassen.
 C'est un algorithme de multiplication rapide basé sur la FFT.
 
-Cet algorithme sera comparé à d'autres algorithmes de multiplication.
+Cet algorithme est comparé à d'autres algorithmes de multiplication.
 
 ## Algorithmes de multiplication
 - [x] Algorithme standard (*Long multiplication*) : `longmult`
 - [x] Algorithme de Schönage et Strassen : `ssmult`
-- [ ] Algorithme de Karatsuba
+- [x] Algorithme de Karatsuba : `karatsuba`
 - [ ] Algorithme de Fürer
 
 ## Références
@@ -30,3 +30,5 @@ Cet algorithme sera comparé à d'autres algorithmes de multiplication.
 - [Understanding Fast Fourier Transform from scratch — to solve Polynomial Multiplication](https://medium.com/@aiswaryamathur/understanding-fast-fourier-transform-from-scratch-to-solve-polynomial-multiplication-8018d511162f)
 - [Integer multiplication in time O(n log n) - David Harvey](https://www.youtube.com/watch?v=FKGRc867j10)
 
+## Auteurs
+Quentin DESCHAMPS - Ruxue ZENG
