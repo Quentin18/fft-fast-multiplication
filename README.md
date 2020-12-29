@@ -9,7 +9,9 @@ Cet algorithme est comparé à d'autres algorithmes de multiplication.
 - [x] Algorithme standard (*Long multiplication*) : `longmult`
 - [x] Algorithme de Schönage et Strassen : `ssmult`
 - [x] Algorithme de Karatsuba : `karatsuba`
-- [ ] Algorithme de Fürer
+
+Pour obtenir l'aide sur `ssmult`, entrez `help('ssmult')`.
+De même pour les autres algorithmes.
 
 ## Références
 ### Documents
